@@ -92,7 +92,7 @@ with st.sidebar:
     selected
 # horizontal Menu
 selected2 = option_menu(None, ["Demonstration", "Metric" ],
-    icons=['calculator', 'emoji-wink', "flag fill"],
+    icons=['Activityr', 'emoji-wink', "flag fill"],
     menu_icon="cast", default_index=0, orientation="horizontal")
 
 if selected2 == "Metric":
