@@ -87,7 +87,7 @@ st.title('Traffic sign decection')
 st.subheader("from the mind of Team ZAC.")
 
 with st.sidebar:
-    selected = option_menu("Main Menu", ["Demo", ' More info'],
+    selected = option_menu("Main Menu", ["Demo", ' More info', "Revolutio"],
         icons=['house', 'info-circle'], menu_icon="cast", default_index=1)
     selected
 # horizontal Menu
