@@ -37,7 +37,8 @@ import streamlit as st
 def cal():
     import streamlit as st
 
-    st.title('''Simbolo's BMI Calculator''')
+    st.title('Traffic sign')
+    st.subheader("from the mind of Team ZAC.")
 
     weight = st.number_input("Enter your weight(in Kgs)")
 
