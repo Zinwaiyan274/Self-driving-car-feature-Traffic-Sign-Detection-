@@ -91,7 +91,7 @@ with st.sidebar:
         icons=['house', 'info-circle'], menu_icon="cast", default_index=1)
     selected
 # horizontal Menu
-selected2 = option_menu(None, ["Demostratio", "Metric" ],
+selected2 = option_menu(None, ["Demostration", "Metric" ],
     icons=['calculator', 'emoji-wink', "flag fill"],
     menu_icon="cast", default_index=0, orientation="horizontal")
 
