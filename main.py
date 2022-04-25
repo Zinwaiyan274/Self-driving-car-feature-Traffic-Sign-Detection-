@@ -91,13 +91,13 @@ with st.sidebar:
         icons=['house', 'info-circle'], menu_icon="cast", default_index=1)
     selected
 # horizontal Menu
-selected2 = option_menu(None, ["Demostration", "Metric" ],
+selected2 = option_menu(None, ["Demonstration", "Metric" ],
     icons=['calculator', 'emoji-wink', "flag fill"],
     menu_icon="cast", default_index=0, orientation="horizontal")
 
 if selected2 == "Metric":
     st.subheader("Comming soon due to Waii's procrastination")
-if selected2 == "Demostration":
+if selected2 == "Demonstration":
     cal()
 if selected2 == "Revolution":
     st.subheader("Comming soon due to Waii's procrastination")
