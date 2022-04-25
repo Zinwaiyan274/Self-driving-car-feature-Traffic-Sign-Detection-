@@ -83,7 +83,8 @@ def cal():
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-st.title("Welcome to Simbolo's Streamlit project")
+st.title('Traffic sign')
+st.subheader("from the mind of Team ZAC.")
 
 with st.sidebar:
     selected = option_menu("Main Menu", ["Home", 'About'],
