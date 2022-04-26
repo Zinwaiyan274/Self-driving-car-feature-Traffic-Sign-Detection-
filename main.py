@@ -134,15 +134,15 @@ def main():
 
 
 
- if selected == "Info":
-     selected1 = option_menu(None, ["Term and con", "Developer contact", "blabla", ],
-                            icons=['clipboard', 'chat-right-dots', "flag fill"],
-                            menu_icon="cast", default_index=0, orientation="horizontal")
+#  if selected == "Info":
+#      selected1 = option_menu(None, ["Term and con", "Developer contact", "blabla", ],
+#                             icons=['clipboard', 'chat-right-dots', "flag fill"],
+#                             menu_icon="cast", default_index=0, orientation="horizontal")
 
- if selected == "Demo":
-       selected0 = option_menu(None, ["Demonstration", "Computer Vision", " Evaluation Metric", ],
-                            icons=['activity', 'eye-fill', "check2-circle"],
-                            menu_icon="cast", default_index=0, orientation="horizontal")
+#  if selected == "Demo":
+#        selected0 = option_menu(None, ["Demonstration", "Computer Vision", " Evaluation Metric", ],
+#                             icons=['activity', 'eye-fill', "check2-circle"],
+#                             menu_icon="cast", default_index=0, orientation="horizontal")
 
 
 def mm():
