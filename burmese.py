@@ -22,11 +22,8 @@ def main():
         if selected == "လုပ်ဆောင်ချက်" or "အကြောင်းအရာ":
             selected0 = option_menu(None, ["မြန်မာ", "အင်္ဂလိပ်"], orientation="horizontal")
 
-        st.subheader("💬Language")
+ 
 
-        if selected == "Demo" or "Info":
-            selected0 = option_menu(None, ["English", "မြန်မာ"],
-                                    icons=['fgngf', "translate"], orientation="horizontal")
             st.text("©2022_Team_ZAC")
         if selected0 == "အင်္ဂလိပ်":
                  eng()
@@ -36,18 +33,8 @@ def main():
     if selected == "အကြောင်းအရာ":
          selected1 = option_menu(None, ["စာချုပ်", "တီထွင်သူများသို့ ဆက်သွယ်ခြင်း", "blabla", ])
 
-    if selected == "Info":
-        selected1 = option_menu(None, ["Term and con", "Developer contact", "blabla", ],
-                            icons=['clipboard', 'chat-right-dots', "flag fill"],
-                            menu_icon="cast", default_index=0, orientation="horizontal")
-
     if selected == "လုပ်ဆောင်ချက်":
                 selected0 = option_menu(None, ["လုပ်ဆောင်ချက်", "ကင်မရာ", "ရလဒ်" ])
-
-    if selected == "Demo":
-       selected0 = option_menu(None, ["Demonstration", "Computer Vision", " Evaluation Metric", ],
-                            icons=['activity', 'eye-fill', "check2-circle"],
-                            menu_icon="cast", default_index=0, orientation="horizontal")
 
 
 
