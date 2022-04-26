@@ -5,7 +5,7 @@ from streamlit_option_menu import option_menu
 
 def mm():
     st.title("ကျေးဇူးပြု၍ မြန်မာဘာသာစကားအတွက် ဤနေရာကိုနိုပ်ပါ။")
-    st.subheader("https://share.streamlit.io/zinwaiyan274/streamlit_testing/main/main.py")
+    st.subheader("https://share.streamlit.io/zinwaiyan274/zac/main/burmese.py")
 
 
 def main():
