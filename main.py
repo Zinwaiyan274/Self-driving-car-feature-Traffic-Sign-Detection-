@@ -310,12 +310,12 @@ def main():
         mm()
 
 
- if selected == "Info":
+ if selected == "အကြောင်းအရာ":
      selected1 = option_menu(None, ["Term and con", "Developer contact", "blabla", ],
                             icons=['clipboard', 'chat-right-dots', "flag fill"],
                             menu_icon="cast", default_index=0, orientation="horizontal")
 
- if selected == "Demo":
+ if selected == "လုပ်ဆောင်ချက်":
        selected0 = option_menu(None, ["Demonstration", "Computer Vision", " Evaluation Metric", ],
                             icons=['activity', 'eye-fill', "check2-circle"],
                             menu_icon="cast", default_index=0, orientation="horizontal")
