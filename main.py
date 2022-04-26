@@ -110,6 +110,9 @@ import streamlit as st
 
 import streamlit as st
 from streamlit_option_menu import option_menu
+def mm():
+   st.title("ကျေးဇူးပြု၍ အင်္ဂလိပ်ဘာသာစကားအတွက် ဤနေရာကိုနိုပ်ပါ")
+   st.subheader("https://share.streamlit.io/zinwaiyan274/streamlit_testing/main/main.py")
 
 def main():
  st.title("Traffic sign detection")
@@ -129,6 +132,7 @@ def main():
                                 icons=['fgngf', "translate"], orientation="horizontal")
         st.text("©2022_Team_ZAC")
  if selected0 == "English":
+      mm()
       
 
 
@@ -145,9 +149,7 @@ def main():
 #                             menu_icon="cast", default_index=0, orientation="horizontal")
 
 
-def mm():
-   st.title("ကျေးဇူးပြု၍ အင်္ဂလိပ်ဘာသာစကားအတွက် ဤနေရာကိုနိုပ်ပါ")
-   st.subheader("https://share.streamlit.io/zinwaiyan274/streamlit_testing/main/main.py")
+
 
 # #  with st.sidebar:
 # #     selected = option_menu("Main Menu", ["Demo", 'Info'],
