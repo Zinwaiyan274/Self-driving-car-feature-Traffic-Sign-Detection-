@@ -293,7 +293,7 @@ def main():
     st.subheader("from the mind of Team ZAC.")
 
     with st.sidebar:
-        selected = option_menu("အဓိက", ["လုပ်ဆောင်ချက်", "အကြောင်းအရာ" ],
+        selected = option_menu("ပင်မစာမျက်နှာ", ["လုပ်ဆောင်ချက်", "အကြောင်းအရာ" ],
                                icons=['house', 'info-circle'], menu_icon="cast", default_index=1)
         # st.subheader(f"Current page {selected}")
         # horizontal Menu
