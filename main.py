@@ -125,7 +125,7 @@ def main():
 #     menu_icon="cast", default_index=0, orientation="horizontal")
     st.subheader("💬Language")
     if selected == "Demo" or "Info":
-        selected0 = option_menu(None, [""မြန်မာ", "English"],
+        selected0 = option_menu(None, ["မြန်မာ", "English"],
                                 icons=['fgngf', "translate"], orientation="horizontal")
         st.text("©2022_Team_ZAC")
  if selected0 == "English":
