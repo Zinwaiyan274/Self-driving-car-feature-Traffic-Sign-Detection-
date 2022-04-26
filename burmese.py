@@ -288,7 +288,6 @@ def funcion():
 def mm():
     st.title("ကျေးဇူးပြု၍ မြန်မာဘာသာစကားအတွက် ဤနေရာကိုနိုပ်ပါ။")
     st.subheader("https://share.streamlit.io/zinwaiyan274/streamlit_testing/main/main.py")
-
 def main():
     st.subheader("from the mind of Team ZAC.")
 
