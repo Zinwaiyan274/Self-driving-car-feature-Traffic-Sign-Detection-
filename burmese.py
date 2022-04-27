@@ -28,7 +28,7 @@ def main():
     if selected0 == "အင်္ဂလိပ်":
             eng()
     if selected == "အကြောင်းအရာ":
-        selected1 = option_menu(None, ["စာချုပ်", "တီထွင်သူများသို့ ဆက်သွယ်ခြင်း", "blabla"], orientation="horizontal")
+        selected1 = option_menu(None, ["စာချုပ်", "တီထွင်သူများသို့ ဆက်သွယ်ခြင်း"], orientation="horizontal")
 
     if selected == "လုပ်ဆောင်ချက်":
         selected0 = option_menu(None, ["လုပ်ဆောင်ချက်", "ကင်မရာ", "ရလဒ်"], orientation="horizontal")
