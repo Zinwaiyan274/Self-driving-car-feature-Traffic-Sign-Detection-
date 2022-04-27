@@ -26,8 +26,8 @@ def main():
 
 
     if selected == "Info":
-        selected1 = option_menu(None, ["Term and con", "Developer contact", "blabla", ],
-                            icons=['clipboard', 'chat-right-dots', "flag fill"],
+        selected1 = option_menu(None, ["Term and con", "Developer contact" ],
+                            icons=['clipboard', 'chat-right-dots'],
                             menu_icon="cast", default_index=0, orientation="horizontal")
 
     if selected == "Demo":
