@@ -20,9 +20,9 @@ def main():
         selected = option_menu("ပင်မစာမျက်နှာ", ["လုပ်ဆောင်ချက်", "အကြောင်းအရာ"], icons=['house', 'info-circle'], menu_icon="cast", default_index=1)
 
 
-        st.subheader("💬ဘာသာစကား")
+        st.subheader("ဘာသာစကား")
         if selected == "လုပ်ဆောင်ချက်" or "အကြောင်းအရာ":
-            selected0 = option_menu(None, ["မြန်မာ", "အင်္ဂလိပ်"],icons=["translate", 'spellcheck'], orientation="horizontal")
+            selected0 = option_menu(None, ["မြန်မာ", "အင်္ဂလိပ်"], orientation="horizontal")
 
             st.text("©2022_Team_ZAC")
     if selected0 == "အင်္ဂလိပ်":
