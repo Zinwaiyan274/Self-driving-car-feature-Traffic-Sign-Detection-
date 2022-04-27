@@ -22,7 +22,7 @@ def main():
 
         st.subheader("💬ဘာသာစကား")
         if selected == "လုပ်ဆောင်ချက်" or "အကြောင်းအရာ":
-            selected0 = option_menu(None, ["မြန်မာ", "အင်္ဂလိပ်"], orientation="horizontal")
+            selected0 = option_menu(None, ["မြန်မာ", "အင်္ဂလိပ်"],icons=["translate", 'spellcheck'], orientation="horizontal")
 
             st.text("©2022_Team_ZAC")
     if selected0 == "အင်္ဂလိပ်":
