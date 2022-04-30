@@ -7,7 +7,7 @@ from streamlit_option_menu import option_menu
 import os
 import pandas as pd
 import numpy as np
-import cv2
+# import cv2
 from tensorflow.keras.models import load_model
 import streamlit as st
 
