@@ -3,6 +3,28 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 
+
+import os
+import pandas as pd
+import numpy as np
+import cv2
+from tensorflow.keras.models import load_model
+import streamlit as st
+
+
+def demo():
+    st.markdown("Try")
+    uploaded_file = st.file_uploader("Choose a file")
+
+    if uploaded_file is not None:
+        bytes_data = uploaded_file.getvalue()
+        st.write('Model Input')
+        st.image(uploaded_file)
+        if st.button('Predict'):
+            dataframe = pd.read_csv(uploaded_file)
+            st.write(dataframe)
+
+
 def mm():
     st.title("ကျေးဇူးပြု၍ မြန်မာဘာသာစကားအတွက် ဤနေရာကိုနိုပ်ပါ။")
     st.subheader("https://share.streamlit.io/zinwaiyan274/zac/main/burmese.py")
@@ -34,5 +56,10 @@ def main():
        selected0 = option_menu(None, ["Demonstration", "Computer Vision", " Evaluation Metric", ],
                             icons=['activity', 'eye-fill', "check2-circle"],
                             menu_icon="cast", default_index=0, orientation="horizontal")
+       if selected0 == "Demonstration":
+           demo()
+
+
+
 
 main()
