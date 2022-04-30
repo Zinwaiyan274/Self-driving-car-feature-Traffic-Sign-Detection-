@@ -5,8 +5,8 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 def demo():
-    st.markdown("Try")
-    uploaded_file = st.file_uploader("Choose a file")
+    st.markdown("ကြိုဆိုတယ်")
+    uploaded_file = st.file_uploader("ပုံရွေးရန်")
 
     if uploaded_file is not None:
         bytes_data = uploaded_file.getvalue()
