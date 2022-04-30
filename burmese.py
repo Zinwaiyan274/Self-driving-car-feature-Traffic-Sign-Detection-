@@ -10,9 +10,9 @@ def demo():
 
     if uploaded_file is not None:
         bytes_data = uploaded_file.getvalue()
-        st.write('Model Input')
+        st.write('ခန့်မှန်းမည့်ပုံမှာ အောက်ပါပုံဖြစ်သည်')
         st.image(uploaded_file)
-        if st.button('Predict'):
+        if st.button('ခန့်မှန်းမယ်'):
             dataframe = pd.read_csv(uploaded_file)
             st.write(dataframe)
 
