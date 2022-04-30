@@ -4,6 +4,18 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 
+def demo():
+    st.markdown("Try")
+    uploaded_file = st.file_uploader("Choose a file")
+
+    if uploaded_file is not None:
+        bytes_data = uploaded_file.getvalue()
+        st.write('Model Input')
+        st.image(uploaded_file)
+        if st.button('Predict'):
+            dataframe = pd.read_csv(uploaded_file)
+            st.write(dataframe)
+
 
 def eng():
     st.title("ကျေးဇူးပြု၍ အင်္ဂလိပ်ဘာသာစကားအတွက် ဤနေရာကိုနိုပ်ပါ")
@@ -33,6 +45,9 @@ def main():
 
     if selected == "လုပ်ဆောင်ချက်":
         selected0 = option_menu(None, ["လုပ်ဆောင်ချက်", "ကင်မရာ", "ရလဒ်"], orientation="horizontal")
+        if selected0 == "Demonstration":
+               demo()
+
 
 
 st.text("©2022_Team_ZAC")
