@@ -1,2 +1,7 @@
-streamlit_option_menu
-streamlit
+numpy
+matplotlib
+tensorflow
+runipy
+opencv-python-headless
+streamlit==1.8.1
+pandas
