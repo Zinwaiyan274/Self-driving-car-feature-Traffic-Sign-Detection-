@@ -35,11 +35,10 @@ from tensorflow.keras import layers
 from tensorflow.keras.models import Sequential
 @st.cache(allow_output_mutation=True)
 
-
 # import cv2
 # from tensorflow.keras.models
 # import load_model
-import streamlit as st
+
 
 
 def teachable_machine_classification(img, weights_file):
