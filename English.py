@@ -119,7 +119,9 @@ def main():
 
 
 
-main()aded_file.getvalue()
+main()
+
+        aded_file.getvalue()
         st.write('Model Input')
         st.image(uploaded_file)
         if st.button('Predict'):
