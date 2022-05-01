@@ -4,7 +4,7 @@ from streamlit_option_menu import option_menu
 
 
 
-import os
+# import os
 import pandas as pd
 import numpy as np
 # import cv2
@@ -19,9 +19,7 @@ def demo():
 
     if uploaded_file is not None:
         bytes_data = uplo
-import streamlit as st
-from streamlit_option_menu import option_menu
-import streamlit as st
+
 import tensorflow as tf
 import cv2
 import pandas as pd
@@ -32,15 +30,12 @@ import numpy as np
 import os
 import PIL
 import tensorflow as tf
-
 from tensorflow import keras
 from tensorflow.keras import layers
 from tensorflow.keras.models import Sequential
 @st.cache(allow_output_mutation=True)
 
-import os
-import pandas as pd
-import numpy as np
+
 # import cv2
 # from tensorflow.keras.models
 # import load_model
