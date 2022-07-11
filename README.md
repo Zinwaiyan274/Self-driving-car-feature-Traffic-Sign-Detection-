@@ -18,8 +18,8 @@ https://drive.google.com/drive/folders/1rfutYWzJB8gJyu2RfjsTYWs1dR-NEbEV?usp=sha
  Convolutional Neural Network with yolo v5 (Object Detection)
  
  
- Interpretability techniques ( Explainable Machine learning) method
- >LIME
+ >Interpretability techniques ( Explainable Machine learning) method
+ LIME
  
 
 
