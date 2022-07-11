@@ -10,7 +10,7 @@ https://drive.google.com/drive/folders/1rfutYWzJB8gJyu2RfjsTYWs1dR-NEbEV?usp=sha
 
 # For more info > zinwaiyan274@gmail.com
 
->Neural Network experiment
+>Neural Network experiments
 
  Neural Network
  Convolutional Neural Network
